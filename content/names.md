@@ -56,7 +56,7 @@ I'd recommend you write your code in a file named `names.py`. Alternatively you 
     <summary>Show me</summary>
 
     ```python
-    light_switch_is_on = False
+    light_is_on = False
     ```
 
 </details>
@@ -88,7 +88,9 @@ I'd recommend you write your code in a file named `names.py`. Alternatively you 
 10. How does one distinguish data from a name for some data stored in memory?<details>
     <summary>Tell me</summary>
 
-    Data is either surrounded by quotes (a string literal/text), e.g. `"Hello"`, begins with a digit (an integer or floating point number), e.g. `4.5`, the keywords `True` and `False` (a boolean), or is surrounded by square brackets/curly braces (a list/dict), e.g. `[1, 2, 3]` or `{x: 0, y: 0}`. A name for some data stored in memory is a series of characters that is *not* surrounded by quotes and does not begin with a digit, e.g. `coordinates`. Ideally names would always be meaningful words or series of words but, alas, it's common for names to be cryptic, e.g. `dis`.
+    Data is either surrounded by quotes (a string literal/text), e.g. `"Hello"`, begins with a digit (an integer or floating point number), e.g. `4.5`, the keywords `True` and `False` (a boolean), or is surrounded by square brackets/curly braces (a list/dict), e.g. `[1, 2, 3]` or `{x: 0, y: 0}`. 
+    
+    A name for some data stored in memory is a series of characters that is *not* surrounded by quotes and does not begin with a digit, e.g. `coordinates`. Ideally names would always be meaningful words or series of words but, alas, it's common for names to be cryptic, e.g. `dis`.
 
 </details>
 
